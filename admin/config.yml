@@ -1,0 +1,94 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - file: "content.json"
+        label: "KB Sports India — Site Content"
+        name: "site"
+        fields:
+          - label: "Logo (black, for light backgrounds)"
+            name: "logo_black"
+            widget: "image"
+          - label: "Logo (white, for dark backgrounds)"
+            name: "logo_white"
+            widget: "image"
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small tag above headline", name: "eyebrow", widget: "string" }
+              - { label: "Headline — line 1", name: "headline_line1", widget: "string" }
+              - { label: "Headline — line 2", name: "headline_line2", widget: "string" }
+              - { label: "Headline — highlighted word (shown in red)", name: "headline_highlight", widget: "string" }
+              - { label: "Headline — line 3", name: "headline_line3", widget: "string" }
+              - { label: "Paragraph below headline", name: "lead", widget: "text" }
+              - { label: "Phone number (as displayed)", name: "phone_display", widget: "string" }
+              - { label: "Phone number (digits only, for the call button)", name: "phone_tel", widget: "string" }
+          - label: "Stats Row (under hero buttons)"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Number", name: "num", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Small tag", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "p", widget: "text" }
+              - label: "Fact Boxes"
+                name: "facts"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "num", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+          - label: "Brands (catalogue list)"
+            name: "brands"
+            widget: "list"
+            field: { label: "Brand name", name: "brand", widget: "string" }
+          - label: "Categories (What We Stock)"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Category name", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "Reviews Section"
+            name: "reviews"
+            widget: "object"
+            fields:
+              - { label: "Score (e.g. 4.9)", name: "score", widget: "string" }
+              - { label: "Number of reviews", name: "count", widget: "string" }
+              - label: "Review Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Review text", name: "text", widget: "text" }
+                  - { label: "Reviewer / source", name: "who", widget: "string" }
+          - label: "Visit / Location Section"
+            name: "visit"
+            widget: "object"
+            fields:
+              - { label: "Address", name: "address", widget: "text" }
+              - { label: "Phone (as displayed)", name: "phone_display", widget: "string" }
+              - { label: "Phone (digits only)", name: "phone_tel", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string" }
+              - { label: "Map search text (for embedded map)", name: "map_query", widget: "string" }
+              - { label: "Map search text (for 'Open in Google Maps' button)", name: "maps_search_query", widget: "string" }
+          - label: "Photo Gallery (optional — add store/product photos)"
+            name: "gallery"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Photo", name: "src", widget: "image" }
+              - { label: "Caption (optional)", name: "alt", widget: "string", required: false }
