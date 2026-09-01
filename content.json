@@ -1,0 +1,61 @@
+{
+  "logo_black": "images/logo-black.png",
+  "logo_white": "images/logo-white.png",
+  "hero": {
+    "eyebrow": "Inderganj Chauraha, Gwalior",
+    "headline_line1": "Gear up at",
+    "headline_line2": "Gwalior's",
+    "headline_highlight": "trusted",
+    "headline_line3": "sports store",
+    "lead": "From match-ready cricket bats to badminton, football and fitness kit — KB Sports India has outfitted Gwalior's players for years, with honest pricing and staff who know the game.",
+    "phone_display": "086025 06337",
+    "phone_tel": "08602506337"
+  },
+  "stats": [
+    { "num": "4.9★", "label": "Google rating" },
+    { "num": "127", "label": "Verified reviews" },
+    { "num": "15+", "label": "Brands in stock" }
+  ],
+  "about": {
+    "kicker": "About Us",
+    "title": "Built by people who play the game",
+    "paragraphs": [
+      "KB Sports India is a sporting goods store on Sanatan Dharam Road at Inderganj Chauraha, known locally for its range of cricket bats and gear alongside badminton, football, fitness and team wear.",
+      "Customers keep coming back for the same reasons: equipment that holds up, prices that stay fair, and a staff that takes the time to help you find the right bat, racquet or shoe — not just sell you one.",
+      "Whether you're a school team stocking up before the season or a weekend player replacing a worn-out grip, KB Sports India carries the brands serious players ask for."
+    ],
+    "facts": [
+      { "num": "4.9", "label": "out of 5, from 127 Google reviews" },
+      { "num": "15+", "label": "brands across every major sport" },
+      { "num": "6", "label": "categories — cricket to fitness" },
+      { "num": "11AM", "label": "daily opening time" }
+    ]
+  },
+  "brands": ["SG", "SS", "Nivia", "SF", "Cosco", "Yonex", "Head", "DSC", "JKI", "Stag", "Nexton", "JJ Jonex", "Rakshak", "GKI", "Wilson", "+ more in-store"],
+  "categories": [
+    { "title": "Cricket", "desc": "English willow and kashmir willow bats, balls, pads, gloves and full kits from SG, SS, SF, DSC and JKI — the store's founding specialty." },
+    { "title": "Badminton", "desc": "Racquets, shuttles and stringing from Yonex and Head, set up for club players and weekend regulars alike." },
+    { "title": "Football", "desc": "Match and training balls, boots and shin guards from Nivia and Cosco, for school teams and turf leagues." },
+    { "title": "Fitness & Gym", "desc": "Dumbbells, mats, resistance gear and home-gym essentials from Rakshak, GKI and Nexton." },
+    { "title": "Apparel & Footwear", "desc": "Sports shoes and training wear from Wilson, Stag and JJ Jonex, sized and fitted in-store." },
+    { "title": "Team & Custom Orders", "desc": "Bulk kit and jersey orders for schools, academies and clubs — ask in-store for team pricing." }
+  ],
+  "reviews": {
+    "score": "4.9",
+    "count": "127",
+    "items": [
+      { "text": "First class quality sports equipment and service.", "who": "Google review" },
+      { "text": "Gentle staff, well mannered, and on point pricing.", "who": "Google review" },
+      { "text": "Very good products and at good prices, and their behaviour is so good.", "who": "Google review — Farhan Khan" }
+    ]
+  },
+  "visit": {
+    "address": "Sanatan Dharam Road, corner, Inderganj Chauraha, Roshni Ghar Mohalla, Gwalior, Madhya Pradesh 474009",
+    "phone_display": "086025 06337",
+    "phone_tel": "08602506337",
+    "hours": "Open daily from 11:00 AM — call ahead for closing time",
+    "map_query": "KB Sports India, Sanatan Dharam Road, Inderganj Chauraha, Roshni Ghar Mohalla, Gwalior, Madhya Pradesh 474009",
+    "maps_search_query": "KB Sports India Sanatan Dharam Road Inderganj Chauraha Gwalior"
+  },
+  "gallery": []
+}
