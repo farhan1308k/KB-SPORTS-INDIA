@@ -53,7 +53,17 @@
       }
     ]
   },
-  "gallery": [],
+  "gallery": [
+    {
+      "src": "images/uploads/img_1515.jpeg"
+    },
+    {
+      "src": "images/uploads/img_1516.jpeg"
+    },
+    {
+      "src": "images/uploads/img_1514.jpeg"
+    }
+  ],
   "logo_white": "images/uploads/image-02-09-26-at-2.00 am.png",
   "hero": {
     "eyebrow": "Inderganj Chauraha, Gwalior",
