@@ -23,6 +23,7 @@ collections:
             name: "hero"
             widget: "object"
             fields:
+              - { label: "Background photo (fills the diagonal panel)", name: "bg_image", widget: "image", required: false }
               - { label: "Small tag above headline", name: "eyebrow", widget: "string" }
               - { label: "Headline — line 1", name: "headline_line1", widget: "string" }
               - { label: "Headline — line 2", name: "headline_line2", widget: "string" }
