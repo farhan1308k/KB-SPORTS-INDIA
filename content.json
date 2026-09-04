@@ -1,5 +1,5 @@
 {
-  "logo_black": "images/logo-black.png",
+  "logo_black": "images/uploads/logo-black.png",
   "visit": {
     "address": "Sanatan Dharam Road, corner, Inderganj Chauraha, Roshni Ghar Mohalla, Gwalior, Madhya Pradesh 474009",
     "phone_display": "086025 06337",
@@ -64,17 +64,17 @@
       "src": "images/uploads/img_1514.jpeg"
     }
   ],
-  "logo_white": "images/uploads/image-02-09-26-at-2.00 am.png",
+  "logo_white": "images/uploads/logo-white.png",
   "hero": {
+    "bg_image": "images/uploads/image-02-09-26-at-2.00 am.png",
+    "headline_highlight": "trusted",
     "eyebrow": "Inderganj Chauraha, Gwalior",
+    "phone_tel": "08602506337",
+    "phone_display": "086025 06337",
     "headline_line1": "Gear up at",
     "headline_line2": "Gwalior's",
-    "headline_highlight": "trusted",
     "headline_line3": "sports store",
-    "lead": "From match-ready cricket bats to badminton, football and fitness kit — KB Sports India has outfitted Gwalior's players for years, with honest pricing and staff who know the game.",
-    "phone_display": "086025 06337",
-    "phone_tel": "08602506337",
-    "bg_image": "images/logo-white.png"
+    "lead": "From match-ready cricket bats to badminton, football and fitness kit — KB Sports India has outfitted Gwalior's players for years, with honest pricing and staff who know the game."
   },
   "reviews": {
     "score": "4.9",
